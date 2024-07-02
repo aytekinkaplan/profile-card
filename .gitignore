@@ -1,0 +1,49 @@
+# Build and temporary files
+node_modules/
+dist/
+build/
+.cache/
+.tmp/
+npm-debug.log
+yarn-lock.json
+yarn.lock
+
+# Local development configuration files
+.env
+.editorconfig
+.vscode/
+
+# IDE and editor files
+workspace.code-workspace
+.idea/
+.mypy_cache/
+.pytest/
+
+# Testing frameworks and coverage reports
+coverage/
+test/
+spec/
+.nyc_output/
+
+# Documentation and generated files
+docs/
+.jekyll-cache/
+.github/workflows/docs.yml
+
+# Local environment and debugging files
+webpack.config.js
+webpack.dev.js
+webpack.prod.js
+server.js
+.DS_Store
+*.log
+*.swp
+*.bak
+*.tmp
+*.sass-cache
+*.scssc
+*.DS_Store
+
+# OS-specific files
+Thumbs.db
+desktop.ini
